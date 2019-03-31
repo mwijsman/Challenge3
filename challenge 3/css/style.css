@@ -1,0 +1,60 @@
+html{
+	background-color: #000202;
+	min-width: 300px;
+	font-family: arial;
+	color: #fff;
+}
+#header{
+	height : 80px;
+	display: flex;
+}
+	#header img {
+		max-height: 100%;
+	}
+#grid-container {
+	display: grid;
+	grid-template-columns: auto;
+  	grid-template-rows: repeat(5, 150px);
+	grid-gap: 10px;
+}
+	#grid-container > div {
+		background-color: #21272b;
+	}
+#item1{
+		grid-column: span 3;
+		overflow: auto;
+		min-height: 400px;
+}
+#item2{
+		grid-column: span 3;
+		overflow: auto;
+		min-height: 400px;
+		margin-top: 300px;
+		padding-top: 10px;
+}
+#weather {
+	background-color: #222222;
+	overflow: auto;
+	margin: auto;
+}
+
+#weather > .forecastMoment {
+	float: left;
+	width: 96px;
+	margin: 2px;
+	margin-left: 12px;
+	text-align: center;
+	background-color: #D7DBDF;
+	border-radius: 6px;
+	color: #444;
+	font-size: 0.8em;
+}
+.hidden {
+	display: none;
+}
+    #map{
+		color: black;
+      height:400px;
+      width:100%;
+    }
+

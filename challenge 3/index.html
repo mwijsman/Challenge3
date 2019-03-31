@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<title>Space and API</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style640.css">
+		<link rel="stylesheet" type="text/css" href="css/style1024.css">
+		<link rel="stylesheet" type="text/css" href="css/style1640.css">
+	</head>
+	<body>
+		<div id=header>
+			<img src="img/logo.png" alt="spacex">
+		</div>
+		<div  id="grid-container">
+			<div id="item1" class="item">
+				<h1>Current and expected weather:</h1>
+				<article id="weather"></article>
+				<script  src="js/main.js"></script>
+			</div>
+		<div id="item2" class="item">
+			<h1>Popular relaxation places within New York City</h1>
+			  <div id="map"></div>
+			  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDL08479IoqwRRKPAnWBztvtZ7v6GUHn1o&callback=initMap"></script>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+  @media screen and (min-width: 1640px){
+  	#grid-container{
+  		max-width: 1640px; 
+  	}
+	#item1{
+		grid-column: span 2;
+			margin-top: 20px;
+
+	}
+	#item2{
+			grid-column: span 2;
+			margin-top: 20px;
+	}
+	
+  }
